@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maddox</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="flex-box">
+        <div>
+            <div class="header">
+                <div class="avatar">
+                    <img src="images/Maddox.JPG" alt="Imagem Maddox Estética">
+                </div>
+                <h1>Maddox Estética</h1>
+                <p>Aqui você encontra todos os nossos links importantes em um único lugar.</p>
+            </div>
+            <div class="links-container">
+                <div class="container">
+                    <div class="links-list" id="linksList">
+                        <div class="link-card">
+                            <a href="https://maddox-iota.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <div class="link-content">
+                                <div class="link-text">
+                                    <div class="link-title">Site</div>
+                                    <div class="link-url">maddox-iota.vercel.app</div>
+                                </div>
+                                <i class="fas fa-external-link-alt link-icon"></i>
+                            </div>
+                        </a>
+                        </div>
+                        <div class="link-card">
+                            <a href="http://wa.me/5541997019462" target="_blank" rel="noopener noreferrer">
+                            <div class="link-content">
+                                <div class="link-text">
+                                    <div class="link-title">WhatsApp</div>
+                                    <div class="link-url">+55 (41) 99701-9462</div>
+                                </div>
+                                <i class="fas fa-external-link-alt link-icon"></i>
+                            </div>
+                        </a>
+                        </div>
+                        <div class="link-card">
+                            <a href="https://www.google.com/maps/place/Maddox+Est%C3%A9tica/@-25.589494,-49.411089,18z/data=!4m6!3m5!1s0x94dd0322ba7c27e7:0x7abba5f497ef2b69!8m2!3d-25.589494!4d-49.411089!16s%2Fg%2F11sc2s0bw0?hl=pt-BR&entry=ttu&g_ep=EgoyMDI1MTAxNC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
+                            <div class="link-content">
+                                <div class="link-text">
+                                    <div class="link-title">Localização</div>
+                                    <div class="link-url">Av. Independência, 117 - Sala 1</div>
+                                </div>
+                                <i class="fas fa-external-link-alt link-icon"></i>
+                            </div>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Maddox Estética | Estética, Embelezamento e Cursos em Araucária.</p>
+            <p id="new-date"></p>
+        </div>
+    </div>
+    <script>
+        function footerDate(){
+            const footerNewDate = document.getElementById("new-date");
+            const currentYear = new Date().getFullYear();
+            footerNewDate.innerHTML = currentYear + " - &copy; Maddox Estética. Todos os direitos reservados."
+        }
+        footerDate();
+    </script>
+</body>
+</html>
+
+<!-- 
+<div class="social-icons">
+    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon" title="Instagram">
+        <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-icon" title="Twitter">
+        <i class="fab fa-twitter"></i>
+    </a>
+    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon" title="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+    </a>
+    <a href="mailto:contato@example.com" class="social-icon" title="Email">
+        <i class="fas fa-envelope"></i>
+    </a>
+</div> 
+-->
