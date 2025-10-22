@@ -30,6 +30,20 @@ body {
     justify-content: space-between;
 }
 
+.flex-box:first-child{
+    background: linear-gradient( rgba(255, 255, 255, 0.253)),
+    url('./images/1.jpg') center/cover no-repeat;
+    background-size: cover;
+
+
+    @media (max-width: 600px) {
+    background: linear-gradient( rgba(255, 255, 255, 0.295)),
+    url('./images/1.jpg') center/cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+}
+
 .container {
     max-width: 500px;
     margin: 0 auto;
@@ -60,7 +74,7 @@ img{
 
 .header p {
     font-size: 16px;
-    color: var(--muted);
+    color: var(--foreground);
     margin-bottom: 24px;
     max-width: 400px;
     margin-left: auto;
